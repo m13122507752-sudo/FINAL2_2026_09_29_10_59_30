@@ -1,0 +1,14 @@
+/* Set the global font for the entire page */
+body {
+  font-family: 'Lora', serif;
+}
+
+/* If you want to apply it specifically to text that you create dynamically (e.g., using p5.js) */
+p, div, span, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lora', serif;
+}
+
+/* Optional: you can specify a fallback font */
+body {
+  font-family: 'Lora', serif, sans-serif;
+}
